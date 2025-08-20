@@ -93,3 +93,14 @@ Before we begin coding, let's complete the initial setup for this lesson:
 - The application tests if a new transaction can be added.
 - The application tests if search functionality updates the page correctly.
 
+## Project Summary
+
+This project implements a React-based application for managing transactions.  
+Key features include:  
+- Displaying transactions from the server  
+- Adding new transactions with a form  
+- Searching and sorting transactions  
+
+Below is a screenshot of the working application:
+
+![App Screenshot](./screenshot.png)
