@@ -1,16 +1,16 @@
 import React from "react";
 
-function Search({setSearch}) {
+export default function Search({ value, onChange }) {
+  // Controlled input to keep UI & tests in sync
   return (
     <div className="ui large fluid icon input">
       <input
-        type="text"
         placeholder="Search your Recent Transactions"
-        onChange={(e) => setSearch(e.target.value)}
+        type="text"
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
       />
-      <i className="circular search link icon"></i>
+      <i className="circular search link icon" />
     </div>
   );
 }
-
-export default Search;
